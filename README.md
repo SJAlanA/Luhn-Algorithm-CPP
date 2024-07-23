@@ -1,7 +1,7 @@
 # Luhn-Algorithm-CPP
 Implementation of Luhn Algorithm using C++ programming language.
 
-To compile the code into the application file
+To compile the code into the application folder
 
 cd Application
 
