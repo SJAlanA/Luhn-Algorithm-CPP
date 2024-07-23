@@ -10,7 +10,11 @@ int main(int argc, char* argv[]) {
     IDVerifier verifier(argv[1]);
 
     verifier.printID();
-    verifier.verifyID();
+
+    bool isLegit = verifier.verifyID();
+
+    if( isLegit ) std::cout << "\nThe ID is Legit";
+    else std::cout << "\nThe ID is not Legit";
 
     return 0;
 }
